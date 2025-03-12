@@ -1,0 +1,53 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id 'com.google.gms.google-services'  // Firebase
+    id "dev.flutter.flutter-gradle-plugin"  // Flutter Plugin
+}
+
+android {
+    namespace = "com.app.brandiwave.brandiwave"
+    compileSdk = 35 // ⚠️ Set to 34 for stability, SDK 35 is not officially stable yet.
+
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId "com.app.brandiwave.brandiwave"
+        minSdk = 23
+        targetSdk = 34  // ⚠️ Change to 34 for now.
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+
+        manifestPlaceholders = [appAuthRedirectScheme: "com.app.brandiwave.brandiwave"]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false  // ⚠️ Disable shrinking and obfuscation
+            shrinkResources false  // ⚠️ Keep all resources
+
+            signingConfig signingConfigs.debug  // ⚠️ Ensure debug signing for now
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    implementation 'com.microsoft.identity.client:msal:5.0.0'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+
+
+}

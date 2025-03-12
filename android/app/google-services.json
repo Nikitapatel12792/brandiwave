@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "502607565883",
+    "project_id": "brandiwaveproject",
+    "storage_bucket": "brandiwaveproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502607565883:android:d033d4eb30858a2dea381e",
+        "android_client_info": {
+          "package_name": "com.app.brandiwave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502607565883-3nm3aqa72ur1oa7gg6t0agpru71mf6gb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.brandiwave",
+            "certificate_hash": "ebefd131ee55e6fc7c64210c5219ceabcb7c4146"
+          }
+        },
+        {
+          "client_id": "502607565883-5r3o31blubqd6rd6l0norrqjol2h8kdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHnVCd5Q7t6As4lvumjtankubkIzgbBD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502607565883-5r3o31blubqd6rd6l0norrqjol2h8kdr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "502607565883-gbvimrt1ev98ig2hpjhdrq1436v0kre8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.brandiwave.brandiwave"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502607565883:android:b5e427f188793d1bea381e",
+        "android_client_info": {
+          "package_name": "com.app.brandiwave.brandiwave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502607565883-r7qrkbe8inb7m14bqgu4a2kldsbmj2mj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.brandiwave.brandiwave",
+            "certificate_hash": "ebefd131ee55e6fc7c64210c5219ceabcb7c4146"
+          }
+        },
+        {
+          "client_id": "502607565883-5r3o31blubqd6rd6l0norrqjol2h8kdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHnVCd5Q7t6As4lvumjtankubkIzgbBD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502607565883-5r3o31blubqd6rd6l0norrqjol2h8kdr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "502607565883-gbvimrt1ev98ig2hpjhdrq1436v0kre8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.brandiwave.brandiwave"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+{
+  "client_id" : "84f6aacf-8c7c-4ea9-b787-a6ec97d27154",
+  "authorization_user_agent" : "DEFAULT",
+  "redirect_uri" : "msauth://com.app.brandiwave.brandiwave/6%2B%2FRMe5V5vx8ZCEMUhnOq8t8QUY%3D",
+  "authorities" : [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADandPersonalMicrosoftAccount",
+        "tenant_id": "common"
+      }
+    }
+  ]
+}
